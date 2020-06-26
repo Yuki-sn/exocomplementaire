@@ -137,7 +137,7 @@ array_multisort($species, SORT_ASC, $names, SORT_ASC, $animals);
             echo '<tr>
                     <td>' . ucfirst( _( $animal['name'] ) ). '</td>
                     <td>' . ucfirst( _( $animal['species'] ) ) . '</td>
-                    <td>' . $animal['birthdate']->format('d/m/Y') . '</td>
+                    <td>' . ucfirst( _( $animal['birthdate'] ) ) . '</td>
                 </tr>';
         }
     ?>
