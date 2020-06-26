@@ -10,7 +10,12 @@ Exercice : Créer une fonction censor() qui prend 1 argument de type "string" et
 // Fonction à créer ici
 //-------------------------------------------------------------------------
 
-
+function censor(string $a){
+    $a=str_ireplace("andouille","**COUCOU**", $a);
+    $a=str_ireplace("stupide","**COUCOU**", $a);
+    $a=str_ireplace("idiot","**COUCOU**", $a);
+    return $a;
+}
 
 
 
