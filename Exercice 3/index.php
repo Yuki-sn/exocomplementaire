@@ -11,7 +11,9 @@ Exercice : Créer une fonction sumOf() qui prend 2 arguments de type "int" et re
 //-------------------------------------------------------------------------
 
 
-
+function sumOf(int $return , $other){
+    return $return + $other;
+};
 
 
 //-------------------------------------------------------------------------
