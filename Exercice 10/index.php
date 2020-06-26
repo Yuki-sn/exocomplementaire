@@ -10,7 +10,15 @@ Exercice : Créer une fonction getNextYear() qui retourne l'année (sur 4 chiffr
 // Fonction à créer ici
 //-------------------------------------------------------------------------
 
+function getNextYear(){
 
+    $currentTimestamp = time();
+
+    $futurDateTimestamp = $currentTimestamp + (365 * 24 * 60 * 60);
+
+    $nextYear = date('Y-m-d H:i:s', $futurDateTimestamp);
+    return $nextYear;
+}
 
 
 
