@@ -10,8 +10,10 @@ Exercice : Créer une fonction biggestOf() qui prend 1 argument de type "array" 
 // Fonction à créer ici
 //-------------------------------------------------------------------------
 
-
-
+function biggestOf(array $array){
+    rsort($array);
+    return $array[0];
+}
 
 
 //-------------------------------------------------------------------------
